@@ -69,7 +69,7 @@ def reduce_to_any_true(source_array)
     end
     i += 1
   end
-  if num = 0
+  if num_truthy = 0
     return false
   else
     return true
